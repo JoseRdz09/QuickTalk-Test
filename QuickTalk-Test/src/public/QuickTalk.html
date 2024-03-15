@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickTalk</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/46a5e4490b.js" crossorigin="anonymous"></script>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+<link rel="stylesheet" href="/css/estilochat.css">
+<link rel="icon" href="img/Icon-QuickTalk.png" />
+</head>
+
+<body data-bs-theme="light">
+  <div class="row">
+    <div class="sidebar" data-bs-theme="light">
+      <a href="#messages"><i class="fa-regular fa-message"></i></a>
+      <a href="#contacts"><i class="fi fi-rs-users-alt"></i></a>
+      <a href="#Configuracion"><i class="fi fi-rs-admin-alt"></i></a>
+      <button onclick="cambiarmodo()" class="btn rounded-fill"><i id="darkmode" class="fi fi-rs-moon-stars" style="color: white;"></i></button>
+    </div>
+    <div class="content" data-bs-theme="light">
+      <div id="messages">
+        <h1>Chats</h1>
+        <a href="#contentWrap">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/monagullo.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Monaguillos</h5>
+                  <p class="card-text">Nuevo mensaje......</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+
+      <div id="contacts" style="display: none;">
+        <h2>Contactos</h2>
+        <p>Contenido de la sección de contactos...</p>
+      </div>
+      <div id="Configuracion" style="display: none;">
+        <h2>Mi cuenta</h2>
+        <div class="usuario-info">
+          <img src="img/monagullo.jpg" alt="Avatar del usuario">
+          <h2>Nombre de usuairio</h2>
+          <p>correo@ejemplo.com</p>
+          <p>Contraseña: ****</p>
+          <button class="cerrar-sesion" onclick="cerrarSesion()">Cerrar Sesión</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="/js/scriptquick.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: grid;
+}
+
+.navbar {
+    background-color: #C203DB;
+}
+
+.card-header{
+    background-color: #C203DB;
+}
+.btn {
+    background-color: #C203DB;
+}
+
+.row {
+    
+}
+#chat {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    overflow-y: scroll;
+}
+
+#message-form {
+    scroll-behavior: smooth;
+}
+
+#message>li:nth-child(odd) {
+    background: #000;
+}

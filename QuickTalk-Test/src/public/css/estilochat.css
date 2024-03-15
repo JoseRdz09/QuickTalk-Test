@@ -1,0 +1,103 @@
+.row{
+    
+}
+
+body[data-bs-theme="dark"] {
+    background-color: #333;
+    color: #fff;
+}
+
+.sidebar[data-bs-theme="dark"] {
+    background-color: #222;
+    color: #fff;
+}
+
+.content[data-bs-theme="dark"] {
+    background-color: #444;
+    color: #fff;
+}
+
+.content {
+    transition: margin-left 0.5s;
+    padding: 16px;
+    margin-left: 80px;
+    background: #F7F4F4;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    
+}
+.messages{
+    overflow-y: scroll;
+}
+.bg-dark {
+    background-color: #343a40!important;
+}
+.sidebar {
+    position: relative;
+    height: 100%;
+    width: 67px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00a2ff;
+    padding-top: 20px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#Configuracion{
+    
+    text-align: center;
+}
+
+/* Estios del apartado */
+.usuario-info {
+    display: block;
+    top: 50px;
+    text-align: center;
+  }
+  .usuario-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .usuario-info h2, .usuario-info p {
+    margin: 10px 0;
+  }
+  .cerrar-sesion {
+
+    top: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /*Estilos chat*/
+
+  #contentWrap{
+    margin-left: 465px;
+    bottom: 100px;
+    width: 100%;
+    height: 1000px;
+    ;
+  }
